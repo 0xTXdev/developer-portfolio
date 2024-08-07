@@ -5,8 +5,8 @@ module.exports = {
   basePath: "/developer-portfolio",
   // output: "export",
   reactStrictMode: false,
-  // images: {
-  //   domains: ["avatars.githubusercontent.com"],
-  // },
+  images: {
+    domains: ["avatars.githubusercontent.com"],
+  },
   output: "standalone",
 };
