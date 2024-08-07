@@ -1,12 +1,12 @@
 module.exports = {
-  reactStrictMode: true,
+  // reactStrictMode: true,
 
   // Add basePath
   basePath: "/developer-portfolio",
-  output: "export",
-  // reactStrictMode: false,
+  // output: "export",
+  reactStrictMode: false,
   // images: {
   //   domains: ["avatars.githubusercontent.com"],
   // },
-  // output: "standalone",
+  output: "standalone",
 };
