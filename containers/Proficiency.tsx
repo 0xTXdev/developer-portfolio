@@ -33,7 +33,9 @@ const Proficiency = () => {
               })}
             </Col>
             <Col lg="6">
-              <GreetingLottie animationPath="/lottie/build.json" />
+              <GreetingLottie
+                animationPath={process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : "" + "/lottie/build.json"}
+              />
             </Col>
           </Row>
         </Fade>

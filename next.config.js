@@ -2,8 +2,7 @@ module.exports = {
   // reactStrictMode: true,
 
   // Add basePath
-  basePath: "/developer-portfolio",
-  assetPrefix: "/developer-portfolio/",
+  basePath: process.env.BASE_PATH,
   // output: "export",
   reactStrictMode: false,
   images: {

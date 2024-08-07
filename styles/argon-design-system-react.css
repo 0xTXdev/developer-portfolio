@@ -4969,7 +4969,7 @@ input[type="button"].btn-block {
 	display: inline-block;
 	padding-right: 0.5rem;
 	color: #8898aa;
-	content: "/";
+	content: "/developer-portfolio";
 }
 
 .breadcrumb-item + .breadcrumb-item:hover::before {
