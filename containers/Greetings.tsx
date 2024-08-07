@@ -48,7 +48,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath={process.env.BASE_PATH || "" + "/lottie/coding.json"} />
+                  <GreetingLottie animationPath={"/developer-portfolio/lottie/coding.json"} />
                 </Col>
               </Row>
             </div>

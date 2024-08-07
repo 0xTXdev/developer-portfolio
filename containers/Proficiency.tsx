@@ -33,7 +33,7 @@ const Proficiency = () => {
               })}
             </Col>
             <Col lg="6">
-              <GreetingLottie animationPath={process.env.BASE_PATH || "" + "/lottie/build.json"} />
+              <GreetingLottie animationPath="/developer-portfolio/lottie/build.json" />
             </Col>
           </Row>
         </Fade>
