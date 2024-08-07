@@ -41,9 +41,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: "Full Stack Development",
-      lottieAnimationFile: `${
-        process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : ""
-      }/lottie/skills/fullstack.json`, // Path of Lottie Animation JSON File
+      lottieAnimationFile: `${process.env.BASE_PATH || ""}/lottie/skills/fullstack.json`, // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
@@ -121,16 +119,14 @@ export const experience: ExperienceType[] = [
   {
     role: "Django Developer",
     company: "Meganos Software",
-    companyLogo: `${process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : ""}/img/icons/common/meganos.png`,
+    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/meganos.png`,
     date: "Aug 2022 - Present",
     desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
   },
   {
     role: "Full Stack Developer",
     company: "Duseca Software",
-    companyLogo: `${
-      process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : ""
-    }/icons/common/duseca_software_logo.jpeg`,
+    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/duseca_software_logo.jpeg`,
     date: "Jan 2022 - Sept 2023",
     desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
     // descBullets: [
@@ -141,14 +137,14 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "ZRTechnologies",
-    companyLogo: `${process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : ""}/icons/common/zrtech.jpeg`,
+    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/zrtech.jpeg`,
     date: "Aug 2022 - Jun 2023",
     desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
     role: "Backend Developer",
     company: "Bleed-AI",
-    companyLogo: `${process.env.BASE_PATH !== undefined ? process.env.BASE_PATH : ""}/icons/common/bleedAI.jpg`,
+    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/bleedAI.jpg`,
     date: "Sept 2021 - Oct 2021",
     desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
@@ -159,7 +155,7 @@ export const projects: ProjectType[] = [
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
     github: "https://github.com/0xtxdev/developer-portfolio",
-    link: "https://developer-portfolio-0xtxdev.vercel.app/",
+    link: "https://0xtxdev.github.io/developer-portfolio/",
   },
   {
     name: "Giebo",
@@ -205,7 +201,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Ismail Hazel",
   image: "https://arweave.net/d8_MWvW5cekbrMZby1bgdDldvAr84wX7GpAP_MiisGI",
-  url: "https://developer-portfolio-0xtxdev.vercel.app",
+  url: "https://0xtxdev.github.io/developer-portfolio/",
   keywords: [
     "Ismail",
     "Ismail Hazel",
