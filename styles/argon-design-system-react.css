@@ -17,7 +17,7 @@
 */
 @font-face {
 	font-family: 'Augestina';
-	src: url('https://www.fontmirror.com/app_public/files/t/1/Agustina.otf') format('opentype');
+	src: url('/developer-portfolio/fonts/Agustina.otf');
 }
 
 #nav-title {
