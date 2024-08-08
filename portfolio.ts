@@ -12,7 +12,7 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Haru Hazel",
+  name: "Haru Tanaka",
   title: "Hi all, I'm Haru",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
@@ -27,12 +27,12 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   email: "hanatanya93@gmail.com",
-  // linkedin: "https://www.linkedin.com/in/1Ismail100/",
+  // linkedin: "https://www.linkedin.com/in/1Haru100/",
   url: "https://discord.com/users/225308015165702154",
   github: "https://github.com/0xtxdev",
-  // instagram: "https://www.instagram.com/__Ismail100",
-  // facebook: 'https://www.facebook.com/1Ismail100',
-  // twitter: 'https://twitter.com/1Ismail100',
+  // instagram: "https://www.instagram.com/__Haru100",
+  // facebook: 'https://www.facebook.com/1Haru100',
+  // twitter: 'https://twitter.com/1Haru100',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -197,18 +197,10 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Haru Hazel",
+  title: "Haru Tanaka",
   description: greetings.description,
-  author: "Haru Hazel",
+  author: "Haru Tanaka",
   image: "https://arweave.net/d8_MWvW5cekbrMZby1bgdDldvAr84wX7GpAP_MiisGI",
   url: "https://0xtxdev.github.io/developer-portfolio/",
-  keywords: [
-    "Ismail",
-    "Ismail Hazel",
-    "@0xTxdev",
-    "0xTxdev",
-    "Portfolio",
-    "Ismail Portfolio ",
-    "Ismail Hazel Portfolio",
-  ],
+  keywords: ["Haru", "Haru Tanaka", "@0xTxdev", "0xTxdev", "Portfolio", "Haru Portfolio ", "Haru Tanaka Portfolio"],
 };
