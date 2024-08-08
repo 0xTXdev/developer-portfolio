@@ -12,8 +12,8 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Ismail Hazel",
-  title: "Hi all, I'm Ismail",
+  name: "Haru Hazel",
+  title: "Hi all, I'm Haru",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   // resumeLink: "#",
@@ -179,13 +179,13 @@ export const feedbacks: FeedbackType[] = [
     name: "Syed Jamal",
     role: "Frontend Developer at Meganos Software",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Ismail is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Haru is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
   },
   {
     name: "Wajahat Malek",
     role: "CEO at Duseca Software",
     feedback:
-      "Ismail has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Ismail is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Ismail for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "Haru has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Haru is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Haru for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
   },
   {
     name: "Zaid Zaffar",
@@ -197,9 +197,9 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Ismail Hazel",
+  title: "Haru Hazel",
   description: greetings.description,
-  author: "Ismail Hazel",
+  author: "Haru Hazel",
   image: "https://arweave.net/d8_MWvW5cekbrMZby1bgdDldvAr84wX7GpAP_MiisGI",
   url: "https://0xtxdev.github.io/developer-portfolio/",
   keywords: [
