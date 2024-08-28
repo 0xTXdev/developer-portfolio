@@ -118,14 +118,14 @@ export const educationInfo: EducationType[] = [
     grade: "Grade A",
     descBullets: [], // Array of Strings
   },
-  {
-    schoolName: "University of Nagoya",
-    subHeader: "Bachelor's Degree in Computer Science",
-    duration: "01/2016 - 01/2018",
-    desc: "Nagoya, JP",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
-  },
+  // {
+  //   schoolName: "University of Nagoya",
+  //   subHeader: "Bachelor's Degree in Computer Science",
+  //   duration: "01/2016 - 01/2018",
+  //   desc: "Nagoya, JP",
+  //   grade: "Grade A",
+  //   descBullets: [], // Array of Strings
+  // },
 ];
 
 export const experience: ExperienceType[] = [
