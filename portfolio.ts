@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Haru Tanaka",
   title: "Hi all, I'm Haru",
   description:
-    "Ambitious and technically adept Python Full Stack Developer with over 7 years of industry experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies. Eager to develop SIGMA's next-generation assessment platform.",
+    "Ambitious and technically adept Python Full Stack Developer with over 5 years of industry experience and 9 years of software engineering experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies. Eager to develop SIGMA's next-generation assessment platform.",
   resumeLink: "https://drive.google.com/file/d/1d431f4q2Khz8elNSm1QKp9d2eimD6SNM/view?usp=drive_link",
 };
 
