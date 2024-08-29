@@ -156,8 +156,8 @@ export const experience: ExperienceType[] = [
   },
   {
     role: "Python Developer",
-    company: "Rikuten",
-    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/rikuten.jpg`,
+    company: "Rakuten",
+    companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/Rakuten.jpg`,
     date: "10/2020 - 02/2021",
     desc: "",
     descBullets: [
@@ -208,7 +208,7 @@ export const feedbacks: FeedbackType[] = [
   },
   {
     name: "Giyu Inoue",
-    role: "CTO at Rikuten",
+    role: "CTO at Rakuten",
     feedback:
       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
   },
