@@ -61,15 +61,23 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-django",
         },
         {
-          skillName: "Bot Development",
+          skillName: "Flask",
+          iconifyTag: "logos:flask",
+        },
+        {
+          skillName: "Web_Scraping",
+          iconifyTag: "tabler:scraping",
+        },
+        {
+          skillName: "Bot_Development",
           iconifyTag: "carbon:bot",
         },
         {
-          skillName: "JavaScript/JSX",
+          skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "TypeScript/TSX",
+          skillName: "TypeScript",
           iconifyTag: "logos:typescript-icon",
         },
         {
@@ -77,7 +85,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: "Next.js",
+          skillName: "NextJS",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
