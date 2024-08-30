@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Haru Tanaka",
   title: "Hi all, I'm Haru",
   description:
-    "Ambitious and technically adept Python Full Stack Developer with 9 years of python developing experience and 6 years of full stack developing experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies. Eager to develop SIGMA's next-generation assessment platform.",
+    "Results-driven Python Full Stack Developer with 4 years of hands-on experience in React and Django development, backed by 9 years of programming expertise, starting as an open-source contributor at 17. At 22, transitioned into a professional career with a strong track record of building high-performance systems that elevate user experiences. Key developer of the Django ClickHouse Backend (available on GitHub), demonstrating deep technical expertise and innovative data optimization solutions. Consistently achieved 99.9% uptime for mission-critical applications and led impactful initiatives to enhance system efficiency and reliability.",
   resumeLink: "https://drive.google.com/file/d/1d431f4q2Khz8elNSm1QKp9d2eimD6SNM/view?usp=drive_link",
 };
 
@@ -37,17 +37,22 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "SUMMARY",
-  subTitle: "Ambitious and technically adept Python Full Stack Developer",
+  subTitle: "Results-driven Python Full Stack Developer",
   data: [
     {
       title: "Software Engineer | Python Full Stack Developer | Backend Solutions",
       lottieAnimationFile: `/developer-portfolio/lottie/skills/fullstack.json`, // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building highly scalable and high traffic backends using python"),
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
-        emoji("⚡ Building various kind of bots using python"),
+        emoji("⚡ Developing scalable and high-performance backend systems with Python and Django"),
+        emoji("⚡ Building modern, interactive Single-Page Applications (SPA) and PWAs with React.js"),
+        emoji("⚡ Creating optimized, responsive static websites using Next.js and Server-Side Rendering (SSR)"),
+        emoji("⚡ Designing and implementing secure RESTful APIs with Django REST Framework (DRF)"),
+        emoji("⚡ Integrating databases and ensuring data integrity with PostgreSQL, MongoDB, and Redis"),
+        emoji("⚡ Automating deployment and scaling using Docker, Kubernetes, and CI/CD pipelines"),
+        emoji("⚡ Implementing real-time functionalities and WebSocket connections for dynamic applications"),
+        emoji(
+          "⚡ Ensuring code quality and reliability through Test-Driven Development (TDD) and Continuous Integration"
+        ),
       ],
       softwareSkills: [
         {
@@ -61,10 +66,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Flask",
           iconifyTag: "logos:flask",
-        },
-        {
-          skillName: "Bot_Development",
-          iconifyTag: "carbon:bot",
         },
         {
           skillName: "JavaScript",
@@ -113,17 +114,9 @@ export const SkillBars: SkillBarsType[] = [
 export const educationInfo: EducationType[] = [
   {
     schoolName: "University of Kyoto",
-    subHeader: "Master's Degree in Computer Science",
-    duration: "04/2013 - 09/2015",
-    desc: "Kyoto, JP",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
-  },
-  {
-    schoolName: "University of Nagoya",
     subHeader: "Bachelor's Degree in Computer Science",
-    duration: "04/2008 - 09/2012",
-    desc: "Nagoya, JP",
+    duration: "04/2016 - 09/2020",
+    desc: "Kyoto, JP",
     grade: "Grade A",
     descBullets: [], // Array of Strings
   },
@@ -131,45 +124,44 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Senior Python Developer",
+    role: "Senior Python Developer | Full Stack Engineer",
     company: "TechGlobe Solutions",
     companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/techglobe.png`,
-    date: "06/2021 - 07/2024",
+    date: "06/2023 - 07/2024",
     desc: "",
     descBullets: [
-      "Led the development of a scalable web application, increasing user capacity by 40% and significantly enhancing the customer experience.",
-      "Collaborated with a cross-functional team to integrate machine learning algorithms, resulting in a 25% improvement in data processing efficiency.",
-      "Pioneered the implementation of a new RESTful API, which streamlined data retrieval processes and bolstered overall system performance.",
-      "Successfully managed the entire software development lifecycle, ensuring stable releases and maintaining a 99.9% uptime for essential applications.",
-      "Wrote custom Python scripts for data manipulation that saved the company approximately 15 hours of manual work per week.",
-      "Automated the testing process which improved the code coverage by 30%, enhancing the robustness of the application.",
+      "Architected a scalable web application, increasing user capacity by 40% and significantly improving customer satisfaction.",
+      "Collaborated with cross-functional teams to integrate machine learning algorithms, boosting data processing efficiency by 25%.",
+      "Developed a new RESTful API that optimized data retrieval processes and enhanced overall system performance.",
+      "Created custom Python scripts that saved approximately 15 hours of manual work weekly, streamlining data management.",
+      "Automated testing workflows, increasing code coverage by 30% and strengthening application robustness.",
     ],
   },
   {
     role: "Full Stack Developer",
     company: "Hitachi",
     companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/hitachi.png`,
-    date: "03/2018 - 05/2021",
+    date: "03/2021 - 05/2023",
     desc: "",
     descBullets: [
-      "Created over 50 JSX components that were reusable and contributed to a 20% increase in development speed for future projects.",
-      "Designed and implemented a database system in PostgreSQL that optimized storage and retrieval operations by 35%.",
-      "Developed progressive web apps with React, enhancing mobile user engagement by more than 50%.",
-      "Optimized existing backend code, leading to a reduction in server response time by an average of 150ms. ",
-      "Integrated third-party services using RESTful APIs, which expanded the platform's capabilities and enriched the user experience.",
+      "Developed over 50 reusable JSX components, improving development speed by 20% for future projects.",
+      "Engineered a PostgreSQL database system that optimized data storage and retrieval, enhancing efficiency by 35%.",
+      "Built progressive web applications using React, resulting in a 50% boost in user engagement on mobile platforms.",
+      "Refined backend architecture, reducing server response times by 150ms on average.",
+      "Integrated external services using RESTful APIs, expanding platform capabilities and enriching user experience.",
     ],
   },
   {
     role: "Python Developer",
     company: "Rakuten",
     companyLogo: `${process.env.BASE_PATH || ""}/img/icons/common/Rakuten.jpg`,
-    date: "10/2015 - 02/2018",
+    date: "10/2020 - 02/2021",
     desc: "",
     descBullets: [
-      "Developed a robust content management system using Django, which successfully managed the workflow for a team of 20 content creators.",
-      "Implemented a new scoring algorithm for educational assessments that increased the accuracy of results by 15%.",
-      "Performed extensive code reviews to enforce coding standards and improve application's security and scalability.",
-      "Assisted in transitioning the development environment to Azure resulting in a more consistent deployment process.",
+      "Designed a comprehensive content management system with Django, efficiently managing workflows for a team of 20+ content creators.",
+      "Implemented a new scoring algorithm for educational assessments, improving accuracy by 15%.",
+      "Led code reviews to ensure compliance with coding standards, enhancing security and scalability.",
+      "Migrated development environments to Azure, streamlining deployment processes and improving consistency.",
     ],
   },
 ];
