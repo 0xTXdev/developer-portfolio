@@ -65,10 +65,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:flask",
         },
         {
-          skillName: "Web Scraping",
-          iconifyTag: "tabler:scraping",
-        },
-        {
           skillName: "Bot Development",
           iconifyTag: "carbon:bot",
         },
