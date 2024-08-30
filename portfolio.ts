@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Haru Tanaka",
   title: "Hi all, I'm Haru",
   description:
-    "Results-driven Python Full Stack Developer with 4 years of hands-on experience in React and Django development, backed by 9 years of programming expertise, starting as an open-source contributor at 17.<br>At 22, transitioned into a professional career with a strong track record of building high-performance systems that elevate user experiences.<br>Key developer of the Django ClickHouse Backend (available on GitHub), demonstrating deep technical expertise and innovative data optimization solutions.<br>Consistently achieved 99.9% uptime for mission-critical applications and led impactful initiatives to enhance system efficiency and reliability.",
+    "Results-driven Python Full Stack Developer with 4 years of hands-on experience in React and Django development, backed by 9 years of programming expertise, starting as an open-source contributor at 17.",
   resumeLink: "https://drive.google.com/file/d/1d431f4q2Khz8elNSm1QKp9d2eimD6SNM/view?usp=drive_link",
 };
 
