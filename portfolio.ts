@@ -61,10 +61,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-django",
         },
         {
-          skillName: "Flask",
-          iconifyTag: "logos:flask",
-        },
-        {
           skillName: "Bot Development",
           iconifyTag: "carbon:bot",
         },
