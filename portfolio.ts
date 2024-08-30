@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Haru Tanaka",
   title: "Hi all, I'm Haru",
   description:
-    "Ambitious and technically adept Python Full Stack Developer with 9 years of software engineering experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies. Eager to develop SIGMA's next-generation assessment platform.",
+    "Ambitious and technically adept Python Full Stack Developer with 9 years of python developing experience and 6 years of full stack developing experience, specializing in React and Django development. My career is marked by a track record of building robust systems that enhance user interface and experience, achieving a 99.9% uptime for business-critical applications, and notably improving system efficiencies. Eager to develop SIGMA's next-generation assessment platform.",
   resumeLink: "https://drive.google.com/file/d/1d431f4q2Khz8elNSm1QKp9d2eimD6SNM/view?usp=drive_link",
 };
 
@@ -43,9 +43,7 @@ export const skillsSection: SkillsSectionType = {
       title: "Software Engineer | Python Full Stack Developer | Backend Solutions",
       lottieAnimationFile: `/developer-portfolio/lottie/skills/fullstack.json`, // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          "⚡ Architecting and developing high-performance, scalable backend systems using Python, optimized for handling large-scale data and high-traffic demands."
-        ),
+        emoji("⚡ Building highly scalable and high traffic backends using python"),
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
         emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
@@ -63,10 +61,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Flask",
           iconifyTag: "logos:flask",
-        },
-        {
-          skillName: "Web_Scraping",
-          iconifyTag: "tabler:scraping",
         },
         {
           skillName: "Bot_Development",
